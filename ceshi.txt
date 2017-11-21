@@ -1,0 +1,15 @@
+# gitlab
+   Host git.baifendian.com
+        HostName git.baifendian.com
+        PreferredAuthentications publickey
+
+        IdentityFile ~/.ssh/id_rsa
+        User xile.lu
+
+# github
+ 
+   Host github.com
+        HostName github.com
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/github
+        User luxile
